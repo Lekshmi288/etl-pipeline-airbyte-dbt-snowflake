@@ -10,7 +10,7 @@ Note: This project was completed and submitted as part of a course two months ag
 
 The pipeline handles:
 
-- Extraction and loading of survey data from Google Sheets via Airbyte
+- Extraction and loading of survey data from Google Sheets via Airbyte 
 - Ingestion of trading and weights data (CSV files) via Airbyte
 - Integration of external data from the Snowflake Marketplace (stock and FX prices)
 - Transformation of raw data into structured staging models and fact tables using dbt
@@ -30,9 +30,9 @@ The pipeline handles:
 ## Key Components
 
 **Data Sources**
-- Survey data (Google Sheets)
-- Trading data (`trading_books.csv`, `weights_table.csv`)
-- Public marketplace data (US stock metrics, FX rates)
+- Classroom Survey data (Google Sheets: https://docs.google.com/spreadsheets/d/1EOykPOCrZB_l0wNlPSDpIC_JAWBRHRNofPJKyyooxV8/edit?gid=1807517008#gid=1807517008)
+- Trading data (`trading_books.csv`, `weights_table.csv` from https://github.com/Snowflake-Labs/sfguide-deploying-pipelines-with-snowflake-and-dbt-labs/tree/main/dbt_project/seeds)
+- Snowflake Marketplace data (Forex Tracking: Currency Exchange Rates by Day and Stock Tracking: US Stock Prices by Day datasets)
 
 **Staging Models in dbt**  
 *(Shown via `!cat` in `etl_pipeline_airbyte_dbt_snowflake.ipynb`)*
