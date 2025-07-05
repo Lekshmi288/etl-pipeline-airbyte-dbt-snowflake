@@ -17,11 +17,11 @@ The pipeline handles:
 
 ##  Tools & Stack
 
-- **Airbyte**: Data extraction and loading
-- **Snowflake**: Cloud data warehouse
-- **dbt**: Data transformation and modeling
-- **Python / Jupyter Notebook**: Final queries, outputs, and plots
-- **SQL**: Data processing and analysis
+- **Airbyte (Cloud)**: Data extraction from external sources and ingestion into Snowflake
+- **Snowflake**: Cloud data warehouse for scalable storage and computation
+- **dbt**: SQL-based transformation layer to define staging and mart models
+- **Matplotlib**: Used for survey dataset visualizations
+- **Jupyter Notebook**: To orchestrate configuration, SQL queries, and visualizations
 
 ---
 
