@@ -65,7 +65,7 @@ The pipeline handles:
 
 ```bash
 .
-├── etl_pipeline_airbyte_dbt_snowflake.ipynb                        # Main notebook with commands, SQL, and analysis
+├── etl_pipeline_airbyte_dbt_snowflake.ipynb  # Main notebook with commands, SQL, and analysis
 ├── files/
 │   ├── fact_tab_trading.csv
 │   ├── staging_valid_fx_tickers.csv
