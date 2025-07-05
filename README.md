@@ -42,12 +42,17 @@ The pipeline handles:
 - `fact_tab_trading.sql`: Computes trade-level profits (buy, sell, profit)
 
 **Generated Output Files (CSV)**
-- `staging_valid_fx_tickers.csv`
-- `staging_valid_stock_tickers.csv`
-- `staging_valid_stock_info.csv`
-- `staging_valid_fx_info.csv`
-- `staging_buy_sell_joint.csv`
-- `fact_tab_trading.csv`
+
+| File Name                         | Description |
+|----------------------------------|-------------|
+| `staging_valid_stock_tickers.csv` | Filtered valid stock tickers from trading data |
+| `staging_valid_fx_tickers.csv`    | Filtered valid FX tickers from trading data |
+| `staging_valid_stock_info.csv`    | Stock price data joined from marketplace |
+| `staging_valid_fx_info.csv`       | FX rate data joined from marketplace |
+| `staging_buy_sell_joint.csv`      | Combined buy/sell trade records with computed values |
+| `fact_tab_trading.csv`            | Final table with profit per trade, grouped by desk |
+
+---
 
 **Analysis**
 - Total profit grouped by desk (`Equity`, `FX`)
