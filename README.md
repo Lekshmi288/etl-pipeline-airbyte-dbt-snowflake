@@ -6,17 +6,13 @@ This project demonstrates the creation of a modern ELT (Extract, Load, Transform
 
 ## Project Overview
 
-- Extract data from:
-  - Google Sheets (survey data)
-  - GitHub-hosted CSVs (`trading_books.csv`, `weights_table.csv`)
-  - Snowflake Marketplace (US stock and FX datasets)
+The pipeline handles:
 
-- Load data into **Snowflake** using **Airbyte**
-
-- Transform data using **dbt**, with SQL files shown inline via `!cat` in `etl_pipeline_airbyte_dbt_snowflake.ipynb`
-
-- Analyze processed data to evaluate trading performance by desk
-
+- Extraction and loading of survey data from Google Sheets via Airbyte
+- Ingestion of trading and weights data (CSV files) via Airbyte
+- Integration of external data from the Snowflake Marketplace (stock and FX prices)
+- Transformation of raw data into structured staging models and fact tables using dbt
+- Analytical queries on trading profits using Snowflake SQL
 ---
 
 ##  Tools & Stack
