@@ -2,7 +2,7 @@
 
 This project demonstrates the creation of a modern ELT (Extract, Load, Transform) pipeline using **Airbyte**, **Snowflake**, and **dbt**, culminating in analysis of trading data for profit evaluation. This work is done as a part of CS639 - Data Nanagement in Data Science course at UW Madison. 
 
-Note: This project was completed and submitted as part of a course two months ago via GitHub Classroom (private repo). The current repository reflects a single upload for portfolio purposes, not the original commit history.
+Note: This project was completed and submitted as part of a course via GitHub Classroom (private repo). The current repository reflects a single upload for portfolio purposes, not the original commit history.
 
 ---
 
