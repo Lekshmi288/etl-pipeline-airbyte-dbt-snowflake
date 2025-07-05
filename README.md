@@ -37,7 +37,7 @@ This project demonstrates the creation of a modern ELT (Extract, Load, Transform
 - Public marketplace data (US stock metrics, FX rates)
 
 **Staging Models in dbt**  
-*(Shown via `!cat` in `p4.ipynb`)*
+*(Shown via `!cat` in `etl_pipeline_airbyte_dbt_snowflake.ipynb`)*
 - `staging_valid_stock_tickers.sql`
 - `staging_valid_fx_info.sql`
 - `staging_buy_sell_joint.sql`
