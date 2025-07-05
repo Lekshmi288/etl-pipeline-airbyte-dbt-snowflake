@@ -57,7 +57,7 @@ The pipeline handles:
 **Analysis**
 - Total profit grouped by desk (`Equity`, `FX`)
 - Profit rate per desk
-- Executed and explained in `p4.ipynb` using Snowflake SQL
+- Executed and explained in `etl_pipeline_airbyte_dbt_snowflake.ipynb` using Snowflake SQL
 
 ---
 
