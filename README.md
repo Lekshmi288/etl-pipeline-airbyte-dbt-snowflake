@@ -1,10 +1,10 @@
-# 💼 ETL Data Pipeline with Airbyte, Snowflake, and dbt
+# ETL Data Pipeline with Airbyte, Snowflake, and dbt
 
 This project demonstrates the creation of a modern ELT (Extract, Load, Transform) pipeline using **Airbyte**, **Snowflake**, and **dbt**, culminating in analysis of trading data for profit evaluation.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 - Extract data from:
   - Google Sheets (survey data)
@@ -19,7 +19,7 @@ This project demonstrates the creation of a modern ELT (Extract, Load, Transform
 
 ---
 
-## 🧱 Tools & Stack
+##  Tools & Stack
 
 - **Airbyte**: Data extraction and loading
 - **Snowflake**: Cloud data warehouse
@@ -29,7 +29,7 @@ This project demonstrates the creation of a modern ELT (Extract, Load, Transform
 
 ---
 
-## 📊 Key Components
+## Key Components
 
 **Data Sources**
 - Survey data (Google Sheets)
@@ -60,7 +60,7 @@ This project demonstrates the creation of a modern ELT (Extract, Load, Transform
 
 ---
 
-## 📝 File Structure
+## File Structure
 
 ```bash
 .
