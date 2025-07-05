@@ -1,6 +1,6 @@
 # ETL Data Pipeline with Airbyte, Snowflake, and dbt
 
-This project demonstrates the creation of a modern ELT (Extract, Load, Transform) pipeline using **Airbyte**, **Snowflake**, and **dbt**, culminating in analysis of trading data for profit evaluation.
+This project demonstrates the creation of a modern ELT (Extract, Load, Transform) pipeline using **Airbyte**, **Snowflake**, and **dbt**, culminating in analysis of trading data for profit evaluation. This work is done as a part of CS639 - Data Nanagement in Data Science course at UW Madison. 
 
 ---
 
